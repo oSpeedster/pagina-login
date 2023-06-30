@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/impact');
+
 * {
     padding: 0px; 
     margin: 0;
@@ -64,7 +66,7 @@
 
 .login-text {
     color:red;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Impact', sans-serif;
     font-size: 30px;
 
     opacity: 100%;
@@ -81,7 +83,7 @@
     background-color: white;
 
     color:red;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Impact', sans-serif;
     font-size: 30px;
 
     width: 250px;
@@ -100,7 +102,7 @@
     background-color: black;
 
     color:greenyellow;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Impact', sans-serif;
     font-size: 30px;
 
     width: 250px;
@@ -123,3 +125,57 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
+@media(max-width: 768px) {
+
+    .divDiv {
+        padding: 300px 0px;
+    }
+
+    .login-fundo {
+        width: 600px;
+        height: 1000px;
+    }
+    
+    .logado-fundo {
+        width: 600px;
+        height: 1000px;
+    }
+    
+    .login-text {
+        font-size: 100px;
+    }
+    
+    .logado-text {
+        color:greenyellow;
+        font-size: 150px;
+    
+    }
+
+    .login-div2 {
+        display: grid;
+        justify-items: center;
+        padding-top: 560px;
+    }
+
+    .boxform {
+        width: 500px;
+        height: 60px;
+        font-size: 50px;
+    }
+
+    #botao-logar {
+        font-size: 80px;
+        width: 370px;
+        height: 120px;
+    }
+
+    #botao-logado {
+        font-size: 80px;
+        width: 450px;
+        height: 120px;
+        padding: 0px 0px 0px 0px;
+    }
+
+}
+
