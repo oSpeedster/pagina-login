@@ -12,13 +12,14 @@
 
 .login-page {
     background-image: url(./img/futuristic-technology-sense-hexagonal-honeycomb-red-background-picture-image_1458849.jpg);
+    background-size: auto;
     width: 100vw;
     height: 100vh;
 }
 
 .logado-page {
     background-image: url(./img/abstract-dark-green-futuristic-gaming-background.jpg);
-    background-size: cover;
+    background-size: auto;
     width: 100vw;
     height: 100vh;
 }
@@ -132,6 +133,11 @@
         padding: 300px 0px;
     }
 
+    /* .login-page {
+        width: 768px;
+        height: 1520px;
+    } */
+
     .login-fundo {
         width: 600px;
         height: 1000px;
@@ -143,7 +149,7 @@
     }
     
     .login-text {
-        font-size: 100px;
+        font-size: 80px;
     }
     
     .logado-text {
