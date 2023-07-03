@@ -19,7 +19,6 @@ function enviar() {
 }
 
 
-
 //db.collection('contas').doc(usuario).get().then(function(doc) {
 //    if (doc.exist) {
 //        if(senha === db.collection('contas').doc(usuario).password)  {
