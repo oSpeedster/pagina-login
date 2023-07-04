@@ -6,20 +6,25 @@
     border: 0px;  
 }
 
+p {
+    display: grid;
+    justify-content: center;
+}
+
 .divDiv {
     padding: 86px 0px;
 }
 
 .login-page {
     background-image: url(./img/futuristic-technology-sense-hexagonal-honeycomb-red-background-picture-image_1458849.jpg);
-    background-size: auto;
+    background-size: 100%;
     width: 100vw;
     height: 100vh;
 }
 
 .logado-page {
     background-image: url(./img/abstract-dark-green-futuristic-gaming-background.jpg);
-    background-size: auto;
+    background-size: 100%;
     width: 100vw;
     height: 100vh;
 }
@@ -45,7 +50,7 @@
     opacity: 50%;
     
     width: 600px;
-    height: 400px;
+    height: 450px;
 
     filter: blur(1px);
     box-shadow: 10px 10px 10px black;
@@ -58,7 +63,7 @@
     opacity: 90%;
     
     width: 600px;
-    height: 400px;
+    height: 450px;
 
     filter: blur(1px);
     box-shadow: 10px 10px 10px black;
