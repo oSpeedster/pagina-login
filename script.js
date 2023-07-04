@@ -18,6 +18,11 @@ function enviar() {
     
 }
 
+function esqueciSenha() {
+    alert('Algo deu errado!')
+    // window.location.href = "esquecisenha.html"
+}
+
 
 //db.collection('contas').doc(usuario).get().then(function(doc) {
 //    if (doc.exist) {

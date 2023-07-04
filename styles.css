@@ -31,7 +31,7 @@ p {
 
 .login-div {
 
-    width: 600px;
+    width: 800px;
     height: 400px;
 
     margin-left: auto;
@@ -45,11 +45,15 @@ p {
     
 }
 
+.login-div2 {
+    display: grid;
+}
+
 .login-fundo {
     background-color: white;
     opacity: 50%;
     
-    width: 600px;
+    width: 650px;
     height: 450px;
 
     filter: blur(1px);
@@ -68,6 +72,22 @@ p {
     filter: blur(1px);
     box-shadow: 10px 10px 10px black;
     border-radius: 10px;
+}
+
+.label {
+    font-size: 30px;
+}
+
+#esqueciSenha {
+    font-size: 15px;
+    display: grid;
+    justify-items: end;
+}
+
+#esqueciSenha:hover {
+    cursor: pointer;
+    color: darkred;
+    transition: 0.1s;
 }
 
 .login-text {
