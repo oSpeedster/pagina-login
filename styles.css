@@ -78,6 +78,22 @@ p {
     font-size: 30px;
 }
 
+#input_container {
+    position:relative;
+    padding:0;
+    margin:0;
+    background:#ddd;
+}
+
+#input_img {
+    position:absolute;
+    bottom: 0px;
+    left: 215px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
 #esqueciSenha {
     font-size: 15px;
     display: grid;

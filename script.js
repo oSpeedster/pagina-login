@@ -18,10 +18,27 @@ function enviar() {
     
 }
 
+
+function verSenha() {
+    let loginSenha = document.getElementById('loginSenha')
+    let imgVer = document.getElementById('input_img')
+
+    if(loginSenha.type == 'password') {
+        loginSenha.type = 'text'
+        imgVer.src = 'https://cdn-icons-png.flaticon.com/512/2767/2767146.png'
+        
+    } else {
+        loginSenha.type = 'password'
+        imgVer.src = 'https://cdn-icons-png.flaticon.com/512/722/722174.png'
+    }
+}
+
+
 function esqueciSenha() {
     alert('Algo deu errado!')
     // window.location.href = "esquecisenha.html"
 }
+
 
 
 //db.collection('contas').doc(usuario).get().then(function(doc) {

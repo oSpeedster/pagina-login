@@ -20,7 +20,10 @@
                         <label for="loginUser" class="label">USUARIO</label>
                         <input class="boxform" type="text" id="loginUser" name="user" value=""><br>
                         <label for="loginSenha" class="label">SENHA</label>
-                        <input class="boxform" type="password" id="loginSenha" name="password" value="">
+                        <div id="input_container">
+                            <input class="boxform" type="password" id="loginSenha" name="password" value="">
+                            <img onclick="verSenha()" src="https://cdn-icons-png.flaticon.com/512/722/722174.png" id="input_img">
+                        </div>
                         <span onclick="esqueciSenha()" id="esqueciSenha">Esqueci a senha</span><br>
                         <button onclick="enviar()" id="botao-logar" type="submit">ENTRAR</button>
                     </div>
